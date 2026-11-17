@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <title>Houston Apollos Basketball Logo</title>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#ffe45c"/>
+      <stop offset="0.48" stop-color="#ffc400"/>
+      <stop offset="1" stop-color="#e99b00"/>
+    </linearGradient>
+    <clipPath id="ballClip"><circle cx="256" cy="206" r="147"/></clipPath>
+    <path id="topArc" d="M 105 318 Q 256 263 407 318"/>
+  </defs>
+
+  <!-- outer badge -->
+  <circle cx="256" cy="256" r="245" fill="#07135f" stroke="#ffffff" stroke-width="7"/>
+  <circle cx="256" cy="256" r="232" fill="#0715a0" stroke="#ffc400" stroke-width="12"/>
+  <circle cx="256" cy="206" r="165" fill="#07135f" stroke="#ffc400" stroke-width="9"/>
+  <circle cx="256" cy="206" r="147" fill="#e86d0b" stroke="#ffffff" stroke-width="5"/>
+
+  <!-- basketball panels -->
+  <g clip-path="url(#ballClip)" fill="none" stroke="#07135f" stroke-width="10" stroke-linecap="round">
+    <path d="M109 205 C165 165 196 105 208 52"/>
+    <path d="M403 205 C347 165 316 105 304 52"/>
+    <path d="M109 205 C165 245 196 305 208 360"/>
+    <path d="M403 205 C347 245 316 305 304 360"/>
+    <path d="M256 55 C220 125 220 285 256 357"/>
+    <path d="M256 55 C292 125 292 285 256 357"/>
+  </g>
+
+  <!-- stars -->
+  <g fill="url(#gold)" stroke="#07135f" stroke-width="5">
+    <path d="M145 112 l8 18 20 2 -15 13 4 20 -17 -10 -17 10 4 -20 -15 -13 20 -2z"/>
+    <path d="M105 205 l8 18 20 2 -15 13 4 20 -17 -10 -17 10 4 -20 -15 -13 20 -2z"/>
+    <path d="M145 296 l8 18 20 2 -15 13 4 20 -17 -10 -17 10 4 -20 -15 -13 20 -2z"/>
+  </g>
+
+  <!-- Apollo rocket / stylized A -->
+  <path d="M171 318 L290 74 L281 319 L249 319 L250 184 L198 318 Z"
+        fill="url(#gold)" stroke="#ffffff" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M247 225 L286 145 L282 225 Z" fill="#07135f"/>
+  <path d="M172 259 L337 259" stroke="#ffffff" stroke-width="13" stroke-linecap="round"/>
+  <circle cx="342" cy="259" r="28" fill="#ffffff" stroke="#07135f" stroke-width="7"/>
+  <path d="M342 231 Q330 259 342 287 M342 259 Q355 245 370 241"
+        fill="none" stroke="#ffc400" stroke-width="4"/>
+
+  <!-- nameplate -->
+  <path d="M43 328 Q256 272 469 328 L446 373 L486 390 L475 456 Q256 504 37 456 L26 390 L66 373 Z"
+        fill="#07135f" stroke="#ffffff" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M50 337 Q256 290 462 337" fill="none" stroke="#ffc400" stroke-width="9"/>
+  <text x="256" y="369" text-anchor="middle" font-family="Georgia,serif"
+        font-size="37" font-weight="900" letter-spacing="5" fill="url(#gold)"
+        stroke="#07135f" stroke-width="1">HOUSTON</text>
+  <text x="256" y="438" text-anchor="middle" font-family="Georgia,serif"
+        font-size="65" font-weight="900" letter-spacing="2" fill="url(#gold)"
+        stroke="#ffffff" stroke-width="3" paint-order="stroke">APOLLOS</text>
+
+  <!-- bottom star and orbit accents -->
+  <path d="M256 456 L270 485 L302 489 L279 510 L285 540 L256 524 L227 540 L233 510 L210 489 L242 485 Z"
+        transform="translate(0,-35)" fill="url(#gold)" stroke="#ffffff" stroke-width="5"/>
+  <path d="M92 464 Q256 500 420 464" fill="none" stroke="#ffc400" stroke-width="8"/>
+</svg>
